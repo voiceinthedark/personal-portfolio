@@ -9,9 +9,10 @@ console.log(route.name);
 <template>
   <header>
     <div class="flex flex-row">
-      <nav class="flex flex-row gap-3 mb-4 p-3 space-x-2 bg-transparent text-2xl">
+      <nav class="flex flex-row gap-3 p-3 mb-4 space-x-2 text-2xl bg-transparent">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
       </nav>
     </div>
   </header>

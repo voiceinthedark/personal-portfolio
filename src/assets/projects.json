@@ -1,0 +1,93 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "title": "Personal Portfolio",
+            "description": "Personal Portfolio",
+            "image": "img/github.svg",
+            "github": "https://github.com/abhishek-4",
+            "demo": "https://github.com/abhishek-4",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "TailwindCSS",
+                "Vite",
+                "Vue"
+            ],
+            "link": "https://github.com/abhishek-4",
+            "keywords": [
+                "portfolio",
+                "frontend",
+                "spa"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Blogging Platform",
+            "description": "A reactive Blogging Platform using the TALL stack",
+            "image": "img/github.svg",
+            "github": "https://github.com/abhishek-4",
+            "demo": "https://github.com/abhishek-4",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "TailwindCSS",
+                "Vite",
+                "AlpineJS",
+                "Laravel",
+                "PHP",
+                "MySQL",
+                "Livewire"
+            ],
+            "link": "https://github.com/abhishek-4",
+            "keywords": [
+                "blog",
+                "fullstack",
+                "laravel",
+                "cms"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Weather Application",
+            "description": "Reactive Weather Application with GPS support using Reactjs",
+            "image": "img/github.svg",
+            "github": "https://github.com/abhishek-4",
+            "demo": "https://github.com/abhishek-4",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "React"
+            ],
+            "link": "https://github.com/abhishek-4",
+            "keywords": [
+                "weather-app",
+                "frontend",
+                "spa"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Bookread Keeper",
+            "description": "A book-reading application to keep track of read books, written purely in javascript and css",
+            "image": "img/github.svg",
+            "github": "https://github.com/abhishek-4",
+            "demo": "https://github.com/abhishek-4",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "link": "https://github.com/abhishek-4",
+            "keywords": [
+                "note-taking",
+                "frontend",
+                "spa"
+            ]
+        }
+    ]
+}
