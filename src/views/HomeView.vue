@@ -1,9 +1,8 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <span class="text-3xl text-emerald-800 font-bold">Hello</span>
   </main>
 </template>
