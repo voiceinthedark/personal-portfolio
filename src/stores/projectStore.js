@@ -9,7 +9,6 @@ export const useProjectStore = defineStore('projects', () => {
   async function fetchProjects() {
     const response = await fetch('src/assets/projects.json')
     projects.value = await response.json()
-    // console.log(projects.value)
   }
 
   return {

@@ -7,3 +7,4 @@ import ProjectList from '../components/projects/ProjectList.vue';
         <ProjectList />
     </div>
 </template>
+

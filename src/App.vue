@@ -9,7 +9,7 @@ console.log(route.name);
 <template>
   <header class="mb-20">
     <div class="flex flex-row">
-      <nav class="fixed flex flex-row w-full gap-3 p-3 space-x-2 text-2xl rounded-sm bg-gradient-to-br from-emerald-200/25 via-cyan-400/25 to-emerald-600/25">
+      <nav class="fixed flex flex-row w-full gap-3 p-3 space-x-2 text-2xl bg-transparent rounded-sm">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/projects">Projects</NavLink>
@@ -17,8 +17,9 @@ console.log(route.name);
     </div>
   </header>
 
-  <RouterView v-slot="{ Component }">
-      <Transition name="slide">
+  <RouterView v-slot="{ Component, route }">
+      <Transition :enter-active-class="route.meta.transitionIn || 'slide'"
+        :leave-active-class="route.meta.transitionOut || 'slide'" mode="out-in">
         <component :is="Component" />
       </Transition>
     </RouterView>
@@ -27,11 +28,16 @@ console.log(route.name);
 
 <style scoped>
 .slide-enter-active {
-  animation-name: slidein;
+  animation-name: slideleft;
   animation-duration: 2.2s;
 }
 
-@keyframes slidein {
+.slide-in-left {
+  animation-name: slideinleft;
+  animation-duration: 1.2s;
+}
+
+@keyframes slideinleft {
   from {
     margin-left: -100%;
     opacity: 0;    
@@ -41,5 +47,54 @@ console.log(route.name);
     opacity: 1;    
   }
 }
+
+.slide-out-left {
+  animation-name: slideoutleft;
+  animation-duration: 1.2s;
+}
+
+@keyframes slideoutleft {
+  from {
+    margin-left: 0%;
+    opacity: 1;    
+  }    
+  to {
+    margin-left: -100%;
+    opacity: 0;    
+  }
+}
+
+.slide-in-right {
+  animation-name: slideinright;
+  animation-duration: 1.2s;
+}
+
+@keyframes slideinright {
+  from {
+    margin-left: 100%;
+    opacity: 0;    
+  }    
+  to {
+    margin-left: 0%;
+    opacity: 1;    
+  }
+}
+
+.slide-out-right {
+  animation-name: slideoutright;
+  animation-duration: 1.2s;
+}
+
+@keyframes slideoutright {
+  from {
+    margin-left: 0%;
+    opacity: 1;    
+  }    
+  to {
+    margin-left: 100%;
+    opacity: 0;    
+  }
+}
+
 
 </style>

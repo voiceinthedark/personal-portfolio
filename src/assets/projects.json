@@ -9,7 +9,8 @@
             "demo": "https://github.com/abhishek-4",
             "technologies": [
                 "Java",
-                "Android"
+                "Android",
+                "Gradle"
             ],
             "link": "https://github.com/abhishek-4",
             "keywords": [
@@ -35,7 +36,9 @@
                 "Laravel",
                 "Php",
                 "Mysql",
-                "Livewire"
+                "Livewire",
+                "Composer",
+                "Nginx"
             ],
             "link": "https://github.com/abhishek-4",
             "keywords": [
