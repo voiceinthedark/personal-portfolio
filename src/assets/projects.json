@@ -25,15 +25,15 @@
             "github": "https://github.com/voiceinthedark/blogging-platform-cms",
             "demo": "https://github.com/abhishek-4",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "TailwindCSS",
+                "Html",
+                "Css",
+                "Javascript",
+                "Tailwindcss",
                 "Vite",
-                "AlpineJS",
+                "Alpine",
                 "Laravel",
-                "PHP",
-                "MySQL",
+                "Php",
+                "Mysql",
                 "Livewire"
             ],
             "link": "https://github.com/abhishek-4",
@@ -52,9 +52,9 @@
             "github": "https://github.com/voiceinthedark/React-Weather",
             "demo": "https://voiceinthedark.github.io/React-Weather/",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript",
+                "Html",
+                "Css",
+                "Javascript",
                 "Bootstrap",
                 "React"
             ],
@@ -73,9 +73,9 @@
             "github": "https://github.com/voiceinthedark/libraryjs",
             "demo": "https://voiceinthedark.github.io/libraryjs/",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "Html",
+                "Css",
+                "Javascript"
             ],
             "link": "https://github.com/abhishek-4",
             "keywords": [
@@ -93,9 +93,9 @@
             "github": "https://github.com/voiceinthedark/pomodoro-timer",
             "demo": "https://voiceinthedark.github.io/pomodoro-timer/",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"                
+                "Html",
+                "Css",
+                "Javascript"                
             ],
             "link": "https://github.com/abhishek-4",
             "keywords": [

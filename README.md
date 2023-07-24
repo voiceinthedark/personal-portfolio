@@ -33,3 +33,5 @@ npm run build
 ```sh
 npm run lint
 ```
+
+<a href="https://iconscout.com/icons/java" target="_blank">Free Java Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">IconScout</a>

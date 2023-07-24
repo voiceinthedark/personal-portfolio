@@ -4,6 +4,11 @@
             <li class="text-xl italic font-thin text-emerald-600" v-for="keyword in project.project.keywords" :key="keyword">#{{ keyword }}</li>
         </ul>
     </div>    
+    <div>
+        <ul>
+            <li v-for="tech in project.project.technologies" :key="tech" class="text-xl italic font-thin text-emerald-600">{{ tech }}</li>
+        </ul>
+    </div>
 </template>
 <script setup>
 defineProps({

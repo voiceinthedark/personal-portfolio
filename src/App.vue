@@ -17,7 +17,27 @@ console.log(route.name);
     </div>
   </header>
 
-  <RouterView  />
+  <Transition name="slide">
+    <RouterView  />
+  </Transition>
 </template>
 
 
+<style scoped>
+.slide-enter-active {
+  animation-name: slidein;
+  animation-duration: 2.2s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+    opacity: 0;    
+  }    
+  to {
+    margin-left: 0%;
+    opacity: 1;    
+  }
+}
+
+</style>
