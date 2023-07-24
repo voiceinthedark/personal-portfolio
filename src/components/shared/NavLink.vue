@@ -15,7 +15,7 @@ defineProps({
 .active {    
     border-bottom: 1px solid;
     border-color: rgb(1, 70, 41);   
-    color: rgb(1, 70, 41);
+    color: rgb(5, 112, 67);
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s ease-in-out;

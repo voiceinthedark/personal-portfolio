@@ -13,9 +13,11 @@ console.log(project.project.title);
 <template>
 
     <div class="grid lg:grid-cols-3 md:grid-cols-1">
-        <ProjectHeader :title="project.project.title"  />
+        <div class="flex flex-col lg:row-span-2">
+            <ProjectHeader :title="project.project.title"  />
+            <ProjectFooter :project="project" />
+        </div>
         <ProjectContent :description="project.project.description" :image="project.project.image" />
-        <ProjectFooter />
     </div>
 
 </template>

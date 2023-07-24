@@ -1,11 +1,13 @@
 <template>
-  <div>{{ content.description }}</div>
-  <img
-    class="object-cover rounded-md cursor-pointer"
-    :src="content.image"
-    alt="project image"
-    @click="showModal = true"
-  />
+  <div class="lg:col-span-2 lg:col-start-2">
+      <div class="mb-4 font-light">{{ content.description }}</div>
+      <img
+        class="object-cover rounded-md cursor-pointer"
+        :src="content.image"
+        alt="project image"
+        @click="showModal = true"
+      />
+  </div>
   <Teleport to="body">
     <Transition name="fade">
       <ImageModal :showModal="showModal" :imageUrl="content.image" @close="showModal = false" />
