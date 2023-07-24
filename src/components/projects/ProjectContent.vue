@@ -1,6 +1,6 @@
 <template>
     <div>{{ content.description }}</div>
-    <img :src="content.image" alt="project image">
+    <img class="object-cover rounded-md" :src="content.image" alt="project image">
 </template>
 
 <script setup>

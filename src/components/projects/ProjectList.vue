@@ -1,12 +1,12 @@
 <script setup>
-import { onMounted } from 'vue';
+import { onUpdated } from 'vue';
 import { useProjectStore } from '../../stores/projectStore';
 import ProjectItem from './ProjectItem.vue';
 
 const projects = useProjectStore();
 projects.fetchProjects();
 
-onMounted(() => {
+onUpdated(() => {
     const scrollWrapper = document.querySelector(".scroll-wrapper");
     scrollWrapper.addEventListener("scroll", handleScroll);
 })
@@ -25,7 +25,7 @@ function handleScroll(event) {
     <div class="scroll-container">
         <div class="grid grid-flow-row place-items-center">
             <template v-for="project in projects.projects.items" :key="project.id">
-                <div class="mb-10 bg-white/50 w-[80%] min-h-[200px] p-2 rounded-lg shadow-sm scroll-wrapper">
+                <div class="mb-10 bg-white/50 w-[80%] min-h-[650px] p-2 rounded-lg shadow-sm scroll-wrapper">
                     <ProjectItem :project="project" />
                 </div>
             </template>
@@ -39,7 +39,7 @@ function handleScroll(event) {
   overscroll-behavior-y: contain;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  height: 100vh;
+  height: 90vh;
 }
 
 .scroll-wrapper {
