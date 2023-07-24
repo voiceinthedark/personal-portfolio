@@ -17,9 +17,11 @@ console.log(route.name);
     </div>
   </header>
 
-  <Transition name="slide">
-    <RouterView  />
-  </Transition>
+  <RouterView v-slot="{ Component }">
+      <Transition name="slide">
+        <component :is="Component" />
+      </Transition>
+    </RouterView>
 </template>
 
 
