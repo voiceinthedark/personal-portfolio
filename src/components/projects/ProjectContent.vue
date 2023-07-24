@@ -1,17 +1,65 @@
 <template>
-    <div>{{ content.description }}</div>
-    <img class="object-cover rounded-md cursor-pointer" :src="content.image" alt="project image" @click="showModal = true">
-    <ImageModal :showModal="showModal" :imageUrl="content.image" @close="showModal = false"/>
+  <div>{{ content.description }}</div>
+  <img
+    class="object-cover rounded-md cursor-pointer"
+    :src="content.image"
+    alt="project image"
+    @click="showModal = true"
+  />
+  <Teleport to="body">
+    <Transition name="fade">
+      <ImageModal :showModal="showModal" :imageUrl="content.image" @close="showModal = false" />
+    </Transition>
+  </Teleport>
 </template>
 
 <script setup>
-import ImageModal from '@/components/shared/ImageModal.vue';
-import { ref } from 'vue';
+import ImageModal from '@/components/shared/ImageModal.vue'
+import { ref } from 'vue'
 
-let showModal = ref(false);
+let showModal = ref(false)
 
 const content = defineProps({
-    description: String,    
-    image: String,    
+  description: String,
+  image: String
 })
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  animation-name: slidein;
+  animation-duration: 3s;
+  /* animation-iteration-count: 1;
+  animation-fill-mode: both; */
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+  }  
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  animation-name: slideout;
+  animation-duration: 3s;
+  /* animation-iteration-count: 1;
+  animation-fill-mode: both; */
+}
+
+@keyframes slideout {
+  from {
+    margin-left: 0%;
+  }
+  
+  to {
+    margin-left: -100%;
+  }
+}
+</style>
