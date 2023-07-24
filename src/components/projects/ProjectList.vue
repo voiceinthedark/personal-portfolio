@@ -8,7 +8,7 @@ projects.fetchProjects();
 
 <template>
     <template v-for="project in projects.projects.items" :key="project.id">
-        <div class="mb-2 bg-white/50 w-[40%] min-h-[200px] p-2 rounded-lg shadow-sm">
+        <div class="mb-2 bg-white/50 w-[80%] min-h-[200px] p-2 rounded-lg shadow-sm">
             <ProjectItem :project="project" />
         </div>
     </template>    

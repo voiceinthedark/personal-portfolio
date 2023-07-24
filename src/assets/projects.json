@@ -1,33 +1,28 @@
 {
-    "items": [
+    "items": [        
         {
             "id": 1,
-            "title": "Personal Portfolio",
-            "description": "Personal Portfolio",
-            "image": "img/github.svg",
-            "github": "https://github.com/abhishek-4",
+            "title": "Online Book Query",
+            "description": "An android application to search for books using the Google Books API",
+            "image": "/images/bookquery.jpeg",
+            "github": "https://github.com/voiceinthedark/book-query-google-api",
             "demo": "https://github.com/abhishek-4",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "TailwindCSS",
-                "Vite",
-                "Vue"
+                "Java"
             ],
             "link": "https://github.com/abhishek-4",
             "keywords": [
-                "portfolio",
-                "frontend",
-                "spa"
+                "book",
+                "android",
+                "mobile"
             ]
         },
         {
             "id": 2,
             "title": "Blogging Platform",
-            "description": "A reactive Blogging Platform using the TALL stack",
-            "image": "img/github.svg",
-            "github": "https://github.com/abhishek-4",
+            "description": "A complete reactive Blogging Platform using the TALL stack",
+            "image": "images/blog-cms.png",
+            "github": "https://github.com/voiceinthedark/blogging-platform-cms",
             "demo": "https://github.com/abhishek-4",
             "technologies": [
                 "HTML",
@@ -53,9 +48,9 @@
             "id": 3,
             "title": "Weather Application",
             "description": "Reactive Weather Application with GPS support using Reactjs",
-            "image": "img/github.svg",
-            "github": "https://github.com/abhishek-4",
-            "demo": "https://github.com/abhishek-4",
+            "image": "/images/react-weather.png",
+            "github": "https://github.com/voiceinthedark/React-Weather",
+            "demo": "https://voiceinthedark.github.io/React-Weather/",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -74,9 +69,9 @@
             "id": 4,
             "title": "Bookread Keeper",
             "description": "A book-reading application to keep track of read books, written purely in javascript and css",
-            "image": "img/github.svg",
-            "github": "https://github.com/abhishek-4",
-            "demo": "https://github.com/abhishek-4",
+            "image": "images/libraryjs.png",
+            "github": "https://github.com/voiceinthedark/libraryjs",
+            "demo": "https://voiceinthedark.github.io/libraryjs/",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -86,7 +81,28 @@
             "keywords": [
                 "note-taking",
                 "frontend",
-                "spa"
+                "spa",
+                "library"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Pomodoro Timer",
+            "description": "A pomodoro timer to help with productivity and time management, written purely in javascript and css, made as part of a challenge",
+            "image": "images/pomodoro.png",
+            "github": "https://github.com/voiceinthedark/pomodoro-timer",
+            "demo": "https://voiceinthedark.github.io/pomodoro-timer/",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"                
+            ],
+            "link": "https://github.com/abhishek-4",
+            "keywords": [
+                "productivity",
+                "time-management",
+                "spa",
+                "frontend"
             ]
         }
     ]

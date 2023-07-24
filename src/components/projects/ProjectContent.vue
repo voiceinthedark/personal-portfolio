@@ -1,5 +1,6 @@
 <template>
-    <div>{{ description }}</div>
+    <div>{{ content.description }}</div>
+    <img :src="content.image" alt="project image">
 </template>
 
 <script setup>
