@@ -1,6 +1,37 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="grid mx-3 lg:grid-cols-5 lg:grid-rows-3 text-zinc-50">
+    <span class="text-5xl font-bold text-neutral-100">Biography</span>
+    <div
+      class="font-medium prose prose-2xl prose-emerald lg:col-span-4 lg:col-start-2"
+      v-html="md(person.data.person.bio)"
+    ></div>    
+    <span class="mt-5 text-5xl font-bold text-neutral-100">Skills</span>
+    <div class="mt-5 text-xl font-medium lg:col-span-4 lg:col-start-2">
+      <ul class="prose list-disc prose-emerald prose-li:marker:text-white">
+        <li v-for="skill in person.data.person.skills" :key="skill">{{ skill }}</li>
+      </ul>
+    </div>
+    <span class="mt-5 text-5xl font-bold text-neutral-100">Techs</span>
+    <div class="mt-5 lg:col-span-4">
+      <ul class="flex flex-row flex-wrap gap-2 ">
+        <ProjectTech v-for="tech in person.data.person.technologies"
+        :key="tech" :tech="tech" />
+      </ul>
+    </div>
   </div>
 </template>
 
+<script setup>
+import { usePersonStore } from '@/stores/personStore.js'
+import { ref } from 'vue'
+import ProjectTech from '@/components/projects/ProjectTech.vue'
+
+let skills = ref([])
+
+const person = usePersonStore()
+
+person.fetchUserData()
+// skills.value = person.data.person.skills
+
+console.log(skills)
+</script>

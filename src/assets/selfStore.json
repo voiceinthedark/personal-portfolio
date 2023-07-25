@@ -2,7 +2,8 @@
     "person": {
         "name": "Firas Abbas",
         "about": "Software Engineer, part-time developer, fulltime learner.",
-        "skills": ["mobile app development", "web app development", "software developer", "frontend developer", "backend developer", "fullstack developer"],
+        "bio": "I am **<span style=\"color: rgb(4, 120, 87)\">Firas Abbas</span>** software engineer from Lebanon. I have a BS in Computer Science from the ***Lebanese International University***.\n I was also double majoring in Computer and Communication Engineering at the <u>American University of Science and Technology</u>.\n\nI enjoy coding and programming and due to years of coding experience in many programming languages, <span style=\"color:RGB(201, 42, 42)\">I am capable on learning and adapting new technologies on demand</span>.\nI'd love to work remotely full or part time on web and mobile applications.",
+        "skills": ["mobile app development", "web app development", "software development", "frontend development", "backend development", "fullstack development"],
         "technologies": [
             "Html",
             "Css",
@@ -11,14 +12,16 @@
             "Vue",
             "Laravel",
             "Php",
+            "Alpine",
+            "Livewire",
             "Mysql",
+            "Postgresql",
+            "Sqlite",
             "Laravel",
             "Composer",
             "Nginx",
-            "Vite",
-            "Alpine",
-            "Livewire",
-            "React"
+            "Vite"
+            
         ],
         "github_repo": "https://github.com/voiceinthedark",
         "personal_website": "https://voiceinthedark.github.io/zettlekasten/",

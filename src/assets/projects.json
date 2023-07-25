@@ -10,7 +10,8 @@
             "technologies": [
                 "Java",
                 "Android",
-                "Gradle"
+                "Gradle",
+                "Sqlite"
             ],
             "link": "https://github.com/abhishek-4",
             "keywords": [
