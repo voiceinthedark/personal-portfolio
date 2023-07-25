@@ -24,12 +24,7 @@ const router = createRouter({
         transitionIn: 'slide-in-left',
         transitionOut: 'slide-out-left'
       }
-    },
-    {
-      path: '/contact',
-      name: 'contact',
-      component: () => import('../views/ContactView.vue')
-    },
+    },    
     {
       path: '/projects',
       name: 'projects',

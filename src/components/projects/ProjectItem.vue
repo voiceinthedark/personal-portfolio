@@ -6,8 +6,6 @@ import ProjectFooter from '@/components/projects/ProjectFooter.vue';
 let project = defineProps({
     project: Object,
 });
-
-console.log(project.project.title);
 </script>
 
 <template>
