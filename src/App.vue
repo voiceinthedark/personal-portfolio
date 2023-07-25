@@ -1,9 +1,8 @@
 <script setup>
-import { RouterView, useRoute } from 'vue-router'
+import { RouterView } from 'vue-router'
 import NavLink from './components/shared/NavLink.vue';
 
-const route = useRoute();
-console.log(route.name);
+// const route = useRoute();
 </script>
 
 <template>

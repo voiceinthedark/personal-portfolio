@@ -34,4 +34,8 @@ npm run build
 npm run lint
 ```
 
+### Acknowledgements
+- Some Svg Icons from
 <a href="https://iconscout.com/icons/java" target="_blank">Free Java Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">IconScout</a>
+- Most Svg icons taken from https://techicons.dev/
+- Personal Avatar: https://getavataaars.com/

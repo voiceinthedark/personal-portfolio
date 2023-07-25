@@ -1,0 +1,28 @@
+{
+    "person": {
+        "name": "Firas Abbas",
+        "about": "Software Engineer, part-time developer, fulltime learner.",
+        "skills": ["mobile app development", "web app development", "software developer", "frontend developer", "backend developer", "fullstack developer"],
+        "technologies": [
+            "Html",
+            "Css",
+            "Javascript",
+            "Tailwindcss",
+            "Vue",
+            "Laravel",
+            "Php",
+            "Mysql",
+            "Laravel",
+            "Composer",
+            "Nginx",
+            "Vite",
+            "Alpine",
+            "Livewire",
+            "React"          
+
+        ],
+        "github_repo": "https://github.com/voiceinthedark",
+        "personal_website": "https://voiceinthedark.github.io",
+        "portfolio_website": "https://voiceinthedark.github.io"
+    }
+}

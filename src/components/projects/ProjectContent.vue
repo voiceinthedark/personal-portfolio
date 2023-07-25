@@ -9,7 +9,7 @@
       />
   </div>
   <Teleport to="body">
-    <Transition name="fade">
+    <Transition name="fade" mode="in-out">
       <ImageModal :showModal="showModal" :imageUrl="content.image" @close="showModal = false" />
     </Transition>
   </Teleport>
@@ -31,9 +31,9 @@ const content = defineProps({
 .fade-enter-active,
 .fade-leave-active {
   animation-name: slidein;
-  animation-duration: 3s;
-  /* animation-iteration-count: 1;
-  animation-fill-mode: both; */
+  animation-duration: 1.1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 
 }
 
@@ -50,9 +50,9 @@ const content = defineProps({
 .fade-enter-from,
 .fade-leave-to {
   animation-name: slideout;
-  animation-duration: 3s;
-  /* animation-iteration-count: 1;
-  animation-fill-mode: both; */
+  animation-duration: 1.1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }
 
 @keyframes slideout {
