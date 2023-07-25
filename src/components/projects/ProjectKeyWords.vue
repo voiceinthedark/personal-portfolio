@@ -1,6 +1,6 @@
 <template>
   <div>
-    <li class="text-xl italic font-thin underline text-emerald-800 drop-shadow-md">#{{ keyword }}</li>
+    <li class="text-sm italic font-thin underline text-emerald-700 drop-shadow-md">#{{ keyword }}</li>
   </div>
 </template>
 

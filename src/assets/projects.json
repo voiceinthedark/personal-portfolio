@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Online Book Query",
-            "description": "An android application to search for books using the Google Books API",
+            "description": "**An android application** to search for books using the Google Books API.\n\n- Provides the complete features of the **Google Books** API\n- searching, filtering, sorting, etc.\n- Provides history functionality to keep track of the search query.",
             "image": "/images/bookquery.jpeg",
             "github": "https://github.com/voiceinthedark/book-query-google-api",
             "demo": "https://github.com/abhishek-4",
@@ -22,7 +22,7 @@
         {
             "id": 2,
             "title": "Blogging Platform",
-            "description": "A complete reactive Blogging Platform using the TALL stack",
+            "description": "**A complete reactive Blogging Platform using the *TALL stack*.**\n Features:\n\n - Rich text post creation/editing\n - Comment system\n - Like/dislike System\n - Followers System\n - Direct Messaging System\n - Search indexing system",
             "image": "images/blog-cms.png",
             "github": "https://github.com/voiceinthedark/blogging-platform-cms",
             "demo": "https://github.com/abhishek-4",
@@ -50,8 +50,8 @@
         },
         {
             "id": 3,
-            "title": "Weather Application",
-            "description": "Reactive Weather Application with GPS support using Reactjs",
+            "title": "React Weather App",
+            "description": "Reactive Weather Application with **GPS support** using Reactjs, with fully dynamic, responsive and appealing design. \n\nUses an accurate GPS locational API to provide accurate data from OpenWeatherMap API.",
             "image": "/images/react-weather.png",
             "github": "https://github.com/voiceinthedark/React-Weather",
             "demo": "https://voiceinthedark.github.io/React-Weather/",
@@ -72,7 +72,7 @@
         {
             "id": 4,
             "title": "Bookread Keeper",
-            "description": "A book-reading application to keep track of read books, written purely in javascript and css",
+            "description": "A book-reading application to keep track of read books, written purely in javascript and css.\n - Lightweight and easy to use.",
             "image": "images/libraryjs.png",
             "github": "https://github.com/voiceinthedark/libraryjs",
             "demo": "https://voiceinthedark.github.io/libraryjs/",
@@ -92,7 +92,7 @@
         {
             "id": 5,
             "title": "Pomodoro Timer",
-            "description": "A pomodoro timer to help with productivity and time management, written purely in javascript and css, made as part of a challenge",
+            "description": "A pomodoro timer to help with productivity and time management, written purely in javascript and css, made as part of a *Javascript* coding challenge.\n\n - Lightweight and easy to use.\n - Zen mode, with ambient music player\n - Audiovisual progress bar",
             "image": "images/pomodoro.png",
             "github": "https://github.com/voiceinthedark/pomodoro-timer",
             "demo": "https://voiceinthedark.github.io/pomodoro-timer/",

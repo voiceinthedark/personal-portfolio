@@ -1,6 +1,6 @@
 <template>
   <div class="lg:col-span-2 lg:col-start-2">
-      <div class="mb-4 font-light">{{ content.description }}</div>
+      <div class="mb-4 font-light prose prose-ul:list-inside prose-li:marker:text-emerald-600" v-html="md(content.description)"></div>
       <img
         class="object-cover rounded-md cursor-pointer"
         :src="content.image"

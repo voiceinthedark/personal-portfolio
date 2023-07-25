@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       rotate: {
-        360: '360deg',
+        360: '360deg'
       }
     }
   },
-  plugins: []
+  plugins: [require('@tailwindcss/typography')]
 }

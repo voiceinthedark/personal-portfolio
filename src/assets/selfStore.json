@@ -18,11 +18,10 @@
             "Vite",
             "Alpine",
             "Livewire",
-            "React"          
-
+            "React"
         ],
         "github_repo": "https://github.com/voiceinthedark",
-        "personal_website": "https://voiceinthedark.github.io",
+        "personal_website": "https://voiceinthedark.github.io/zettlekasten/",
         "portfolio_website": "https://voiceinthedark.github.io"
     }
 }
