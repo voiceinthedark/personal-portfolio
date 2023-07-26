@@ -25,12 +25,11 @@ fetchData();
         <span class="text-3xl"
           >Hi my name is
           <span class="text-4xl font-bold underline text-emerald-900">Firas Abbas</span> and I am a
-          software engineer</span
-        >
+          <span class="text-4xl font-bold transition text-amber-200 hover:animate-pulse">software engineer</span></span>
       </div>
       <div class="flex h-[100vh] col-span-5 flex-col items-center">
         <SvgAvatarTransparent />        
-        <span class="mt-2 text-2xl text-zinc-50">{{ person.person.about }}</span>
+        <span class="mt-2 text-2xl text-zinc-50" v-html="md(person.person.about)"></span>
         <div class="flex gap-1 mt-2">
           <a :href="person.person.github_repo" target="_blank">
             <IconGithub class="w-16 h-16" />
