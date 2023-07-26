@@ -6,14 +6,12 @@
             "description": "**An android application** to search for books using the Google Books API.\n\n- Provides the complete features of the **Google Books** API\n- searching, filtering, sorting, etc.\n- Provides history functionality to keep track of the search query.",
             "image": "images/bookquery.jpg",
             "github": "https://github.com/voiceinthedark/book-query-google-api",
-            "demo": "https://github.com/abhishek-4",
             "technologies": [
                 "Java",
                 "Android",
                 "Gradle",
                 "Sqlite"
             ],
-            "link": "https://github.com/abhishek-4",
             "keywords": [
                 "book",
                 "android",
@@ -26,7 +24,6 @@
             "description": "**A complete reactive Blogging Platform using the *TALL stack*.**\n Features:\n\n - Rich text post creation/editing\n - Comment system\n - Like/dislike System\n - Followers System\n - Direct Messaging System\n - Search indexing system",
             "image": "images/blog-cms.png",
             "github": "https://github.com/voiceinthedark/blogging-platform-cms",
-            "demo": "https://github.com/abhishek-4",
             "technologies": [
                 "Html",
                 "Css",
@@ -42,7 +39,6 @@
                 "Nginx",
                 "Docker"
             ],
-            "link": "https://github.com/abhishek-4",
             "keywords": [
                 "blog",
                 "fullstack",
@@ -64,7 +60,6 @@
                 "Bootstrap",
                 "React"
             ],
-            "link": "https://github.com/abhishek-4",
             "keywords": [
                 "weather-app",
                 "frontend",
@@ -83,7 +78,6 @@
                 "Css",
                 "Javascript"
             ],
-            "link": "https://github.com/abhishek-4",
             "keywords": [
                 "note-taking",
                 "frontend",
@@ -103,7 +97,6 @@
                 "Css",
                 "Javascript"                
             ],
-            "link": "https://github.com/abhishek-4",
             "keywords": [
                 "productivity",
                 "time-management",

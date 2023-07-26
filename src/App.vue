@@ -8,7 +8,7 @@ import NavLink from './components/shared/NavLink.vue';
 <template>
   <header class="mb-20">
     <div class="flex flex-row">
-      <nav class="fixed flex flex-row w-full gap-3 p-3 space-x-2 text-2xl rounded-sm md:bg-transparent bg-gradient-to-t from-emerald-50 via-emerald-100 to-emerald-200 ">
+      <nav class="fixed flex flex-row w-full gap-3 p-3 space-x-2 text-2xl rounded-sm md:bg-transparent">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/projects">Projects</NavLink>
