@@ -25,6 +25,7 @@ const content = defineProps({
   description: String,
   image: String
 })
+
 </script>
 
 <style scoped>
