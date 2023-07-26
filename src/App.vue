@@ -16,7 +16,7 @@ import NavLink from './components/shared/NavLink.vue';
     </div>
   </header>
 
-  <RouterView class="scrollbar-thin scrollbar-track-emerald-300 scrollbar-thumb-green-600" v-slot="{ Component, route }">
+  <RouterView v-slot="{ Component, route }">
       <Transition :enter-active-class="route.meta.transitionIn || 'slide'"
         :leave-active-class="route.meta.transitionOut || 'slide'" mode="out-in">
         <component :is="Component" />

@@ -103,6 +103,26 @@
                 "spa",
                 "frontend"
             ]
+        },
+        {
+            "id": 6,
+            "title": "Personal Portfolio",
+            "description": "This portfolio you are a browsing at this moment, is a simplistic yet stylish **Single Page Application**.\n\nWritten primarily in Vue and TailwindCSS.\n",
+            "image": "images/portfolio.png",
+            "github": "https://github.com/voiceinthedark/personal-portfolio",
+            "demo": "https://voiceinthedark.github.io/personal-portfolio/",
+            "technologies": [
+                "Html",
+                "Css",
+                "Javascript",
+                "Tailwindcss",
+                "Vue"
+            ],
+            "keywords": [
+                "protfolio",
+                "spa",
+                "frontend"
+            ]
         }
     ]
 }
