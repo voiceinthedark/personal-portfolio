@@ -13,7 +13,7 @@
       </ul>
     </div>
     <span class="mt-5 text-5xl font-bold text-neutral-100">Techs</span>
-    <div class="mt-5 lg:col-span-4">
+    <div class="mt-5 lg:w-[80%] lg:col-span-4">
       <ul class="flex flex-row flex-wrap gap-2 ">
         <ProjectTech v-for="tech in person.person.technologies"
         :key="tech" :tech="tech" />

@@ -58,7 +58,8 @@
                 "Css",
                 "Javascript",
                 "Bootstrap",
-                "React"
+                "React",
+                "Node"
             ],
             "keywords": [
                 "weather-app",
