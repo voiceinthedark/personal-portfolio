@@ -12,7 +12,7 @@ defineProps({
 })
 function getTech(tech) {
   //   console.log(tech)
-  const componentPath = `../icons/Icon${tech}.vue`
+  const componentPath = `/personal-portfolio/src/components/icons/Icon${tech}.vue`
   const AsyncComp = defineAsyncComponent(() => import(componentPath))
   return AsyncComp
 }
