@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Online Book Query",
             "description": "**An android application** to search for books using the Google Books API.\n\n- Provides the complete features of the **Google Books** API\n- searching, filtering, sorting, etc.\n- Provides history functionality to keep track of the search query.",
-            "image": "/images/bookquery.jpeg",
+            "image": "/images/bookquery.jpg",
             "github": "https://github.com/voiceinthedark/book-query-google-api",
             "demo": "https://github.com/abhishek-4",
             "technologies": [
@@ -39,7 +39,8 @@
                 "Mysql",
                 "Livewire",
                 "Composer",
-                "Nginx"
+                "Nginx",
+                "Docker"
             ],
             "link": "https://github.com/abhishek-4",
             "keywords": [
@@ -53,7 +54,7 @@
             "id": 3,
             "title": "React Weather App",
             "description": "Reactive Weather Application with **GPS support** using Reactjs, with fully dynamic, responsive and appealing design. \n\nUses an accurate GPS locational API to provide accurate data from OpenWeatherMap API.",
-            "image": "/images/react-weather.png",
+            "image": "/images/weather.png",
             "github": "https://github.com/voiceinthedark/React-Weather",
             "demo": "https://voiceinthedark.github.io/React-Weather/",
             "technologies": [
