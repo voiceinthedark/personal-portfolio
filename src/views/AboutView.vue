@@ -31,7 +31,7 @@ let isLoading = ref(true);
 
 async function fetchData(){
   isLoading.value = true;
-  const response = await fetch('/personal-portfolio/selfStore.json');
+  const response = await fetch('/selfStore.json');
   person.value = await response.json();
   isLoading.value = false;
 }

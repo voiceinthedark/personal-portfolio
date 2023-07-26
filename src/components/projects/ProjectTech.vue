@@ -7,12 +7,15 @@
 
 <script setup>
 import { defineAsyncComponent } from 'vue'
+
+const icons = import.meta.glob('../icons/Icon*.vue', { eager: true });
+// console.log(icons);
 defineProps({
   tech: String
 })
 function getTech(tech) {
   //   console.log(tech)
-  const componentPath = `../icons/Icon${tech}.vue`
+  const componentPath = `/src/components/icons/Icon${tech}.vue`
   const AsyncComp = defineAsyncComponent(() => import(componentPath))
   return AsyncComp
 }
