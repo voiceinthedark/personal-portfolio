@@ -31,11 +31,11 @@ fetchData();
         <SvgAvatarTransparent />        
         <span class="mt-2 text-2xl text-zinc-50" v-html="md(person.person.about)"></span>
         <div class="flex gap-1 mt-2">
-          <a :href="person.person.github_repo" target="_blank">
-            <IconGithub class="w-16 h-16" />
+          <a class="relative" :href="person.person.github_repo" target="_blank">
+            <IconGithub class="w-16 h-16 hover:animate-pulse"  />
           </a>
           <a :href="person.person.personal_website" target="_blank">
-            <IconJekyll class="w-16 h-16" />
+            <IconJekyll class="w-16 h-16 hover:animate-pulse" />
           </a>
         </div>
       </div>
