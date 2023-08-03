@@ -48,6 +48,30 @@
         },
         {
             "id": 3,
+            "title": "Markdown driven Blog",
+            "description": "A **Markdown driven blog**, *no database* no hussle, written in **Laravel** as a backend and **Vue** as a frontend. Smooth single page application. With **SSR** support.\nFeatures:\n\n - Easily add posts by just writing a markdown file and placing it in the views directory\n - Mermaid diagraming support, powered by Mermaidjs\n - Yaml Frontmatter is everything needed to categorise and process the article\n - Powered by The League Commonmark and Torchlight syntax highlighter\n - **Easy to use**",
+            "image": "images/markdown-blog.png",
+            "github": "https://github.com/voiceinthedark/markdown-blog",
+            "technologies": [
+                "Html",
+                "Css",
+                "Javascript",
+                "Tailwindcss",
+                "Vite",
+                "Vue",
+                "Laravel",
+                "Php",
+                "Inertia",
+                "Mermaid"
+            ],
+            "keywords": [
+                "blog",
+                "fullstack",
+                "laravel"                
+            ]
+        },
+        {
+            "id": 4,
             "title": "React Weather App",
             "description": "Reactive Weather Application with **GPS support** using Reactjs, with fully dynamic, responsive and appealing design. \n\nUses an accurate GPS locational API to provide accurate data from OpenWeatherMap API.",
             "image": "images/weather.png",
@@ -68,7 +92,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Bookread Keeper",
             "description": "A book-reading application to keep track of read books, written purely in javascript and css.\n - Lightweight and easy to use.",
             "image": "images/libraryjs.png",
@@ -87,7 +111,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Pomodoro Timer",
             "description": "A pomodoro timer to help with productivity and time management, written purely in javascript and css, made as part of a *Javascript* coding challenge.\n\n - Lightweight and easy to use.\n - Zen mode, with ambient music player\n - Audiovisual progress bar",
             "image": "images/pomodoro.png",
@@ -106,7 +130,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Personal Portfolio",
             "description": "This portfolio you are a browsing at this moment, is a simplistic, responsive yet stylish **Single Page Application**.\n\nWritten primarily in Vue and TailwindCSS.\n",
             "image": "images/portfolio.png",

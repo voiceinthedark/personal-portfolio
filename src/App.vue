@@ -25,6 +25,8 @@ import NavLink from './components/shared/NavLink.vue';
 </template>
 
 
+
+
 <style scoped>
 .slide-enter-active {
   animation-name: slideleft;
