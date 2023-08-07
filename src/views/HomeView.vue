@@ -2,6 +2,7 @@
 import SvgAvatarTransparent from '@/components/shared/SvgAvatarTransparent.vue'
 import IconGithub from '../components/icons/IconGithub.vue'
 import IconJekyll from '@/components/icons/IconJekyll.vue'
+import IconMarkdown from '@/components/icons/IconMarkdown.vue'
 import { ref } from 'vue';
 
 let person = ref({});
@@ -36,6 +37,9 @@ fetchData();
           </a>
           <a :href="person.person.personal_website" target="_blank">
             <IconJekyll class="w-16 h-16 hover:animate-pulse" />
+          </a>
+          <a :href="person.person.personal_blog" target="_blank">
+            <IconMarkdown class="w-16 h-16 hover:animate-pulse" />
           </a>
         </div>
       </div>

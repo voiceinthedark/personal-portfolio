@@ -49,7 +49,7 @@
         {
             "id": 3,
             "title": "Markdown driven Blog",
-            "description": "A **Markdown driven blog**, *no database* no hussle, written in **Laravel** as a backend and **Vue** as a frontend. Smooth single page application. With **SSR** support.\nFeatures:\n\n - Easily add posts by just writing a markdown file and placing it in the views directory\n - Mermaid diagraming support, powered by Mermaidjs\n - Yaml Frontmatter is everything needed to categorise and process the article\n - Powered by The League Commonmark and Torchlight syntax highlighter\n - **Easy to use**",
+            "description": "A **Markdown driven blog**, *no database* no hussle, written in **Laravel** as a backend and **Vue** as a frontend. Smooth single page application. With **SSR** support.\nHas a companion application, which is a visual studio code extension for article creation and editing.\n\nFeatures:\n\n - Easily add posts by just writing a markdown file and placing it in the views directory\n - Mermaid diagraming support, powered by Mermaidjs\n - Yaml Frontmatter is everything needed to categorise and process the article\n - Powered by The League Commonmark and Torchlight syntax highlighter\n - **Easy to use**",
             "image": "images/markdown-blog.png",
             "github": "https://github.com/voiceinthedark/markdown-blog",
             "technologies": [

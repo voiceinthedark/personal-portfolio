@@ -20,11 +20,13 @@
             "Laravel",
             "Composer",
             "Nginx",
-            "Vite"
+            "Vite",
+            "Inertia"
             
         ],
         "github_repo": "https://github.com/voiceinthedark",
         "personal_website": "https://voiceinthedark.github.io/zettlekasten/",
-        "portfolio_website": "https://voiceinthedark.github.io"
+        "portfolio_website": "https://voiceinthedark.github.io",
+        "personal_blog": "https://voiceinthedark.github.io/personal_blog/"
     }
 }
