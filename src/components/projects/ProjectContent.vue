@@ -1,12 +1,9 @@
 <template>
   <div class="lg:col-span-2 lg:col-start-2">
-      <div class="mb-4 font-light prose prose-ul:list-inside prose-li:marker:text-emerald-600" v-html="md(content.description)"></div>
-      <img
-        class="object-cover rounded-md cursor-pointer"
-        :src="content.image"
-        alt="project image"
-        @click="showModal = true"
-      />
+    <div class="mb-4 font-light prose prose-ul:list-inside prose-li:marker:text-emerald-600"
+      v-html="md(content.description)"></div>
+    <img class="object-cover rounded-md cursor-pointer" :src="content.image" alt="project image"
+      style="max-height: 640px;" @click="showModal = true" />
   </div>
   <Teleport to="body">
     <Transition name="fade" mode="in-out">
@@ -41,7 +38,7 @@ const content = defineProps({
 @keyframes slidein {
   from {
     margin-left: -100%;
-  }  
+  }
 
   to {
     margin-left: 0%;
@@ -60,7 +57,7 @@ const content = defineProps({
   from {
     margin-left: 0%;
   }
-  
+
   to {
     margin-left: -100%;
   }

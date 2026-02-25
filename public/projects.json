@@ -1,21 +1,24 @@
 {
-    "items": [        
+    "items": [
         {
             "id": 1,
-            "title": "Online Book Query",
-            "description": "**An android application** to search for books using the Google Books API.\n\n- Provides the complete features of the **Google Books** API\n- searching, filtering, sorting, etc.\n- Provides history functionality to keep track of the search query.",
-            "image": "images/bookquery.jpg",
-            "github": "https://github.com/voiceinthedark/book-query-google-api",
+            "title": "Patient Management System",
+            "description": "A Patient management system for a local clinic, written in Expressjs and Ejs as a templating engine, with Postgresql as a database.\n\n**Features:**\n - Provides all the necessary fearures for a patient management system, such as patient registration, patient records management, data auditing etc.\n - Clean and intuitive user interface, with focus on usability and ease of use.\n - Uses Redis for caching, to provide fast and efficient data retrieval.\n - Uses Chartjs for data visualization\n - Deployed locally using PM2 and Nginx as a reverse proxy server.",
+            "image": "images/patient-management-screen.png",
             "technologies": [
-                "Java",
-                "Android",
-                "Gradle",
-                "Sqlite"
+                "Html",
+                "Css",
+                "Javascript",
+                "Sass",
+                "Express",
+                "Node",
+                "Postgresql",
+                "Redis"
             ],
             "keywords": [
-                "book",
-                "android",
-                "mobile"
+                "fullstack",
+                "expressjs",
+                "patient-management"
             ]
         },
         {
@@ -67,7 +70,46 @@
             "keywords": [
                 "blog",
                 "fullstack",
-                "laravel"                
+                "laravel"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Local Election platform",
+            "description": "Local election platform, built using expressjs and Reactjs, with postgresql as a database.\n\n**Features:**\n - Provides access to voters to check their voting status.\n - Allow voters to request new identity cards.\n - Allow voters to request corrections of their information.\n - Allow voters to request to be listed in the voting list if they've been left out.\n - Accessible UI/UX design for ease of use.\n - Automatically send email notifications to administrators when a new request is made.",
+            "image": "images/chehour-election-screen.png",
+            "technologies": [
+                "Html",
+                "Css",
+                "Javascript",
+                "Sass",
+                "Express",
+                "Node",
+                "Postgresql",
+                "React"
+            ],
+            "keywords": [
+                "fullstack",
+                "expressjs",
+                "election"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Online Book Query",
+            "description": "**An android application** to search for books using the Google Books API.\n\n- Provides the complete features of the **Google Books** API\n- searching, filtering, sorting, etc.\n- Provides history functionality to keep track of the search query.",
+            "image": "images/bookquery.jpg",
+            "github": "https://github.com/voiceinthedark/book-query-google-api",
+            "technologies": [
+                "Java",
+                "Android",
+                "Gradle",
+                "Sqlite"
+            ],
+            "keywords": [
+                "book",
+                "android",
+                "mobile"
             ]
         },
         {
@@ -120,7 +162,7 @@
             "technologies": [
                 "Html",
                 "Css",
-                "Javascript"                
+                "Javascript"
             ],
             "keywords": [
                 "productivity",
