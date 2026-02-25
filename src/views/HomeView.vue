@@ -10,7 +10,7 @@ let isLoading = ref(true)
 
 async function fetchData() {
   isLoading.value = true
-  const response = await fetch('/selfStore.json')
+  const response = await fetch('/personal-portfolio/selfStore.json')
   person.value = await response.json()
   isLoading.value = false
 }
@@ -23,9 +23,13 @@ fetchData()
     <div v-if="isLoading">Loading...</div>
     <div class="grid lg:grid-cols-6" v-else>
       <div class="font-semibold text-center w-[17rem] text-zinc-50">
-        <span class="text-3xl">Hi my name is
+        <span class="text-3xl"
+          >Hi my name is
           <span class="text-4xl font-bold underline text-emerald-900">Firas Abbas</span> and I am a
-          <span class="text-4xl font-bold transition text-amber-200 hover:animate-pulse">software engineer</span></span>
+          <span class="text-4xl font-bold transition text-amber-200 hover:animate-pulse"
+            >software engineer</span
+          ></span
+        >
       </div>
       <div class="flex h-[100vh] col-span-5 flex-col items-center">
         <SvgAvatarTransparent />
