@@ -24,7 +24,7 @@ const router = createRouter({
         transitionIn: 'slide-in-left',
         transitionOut: 'slide-out-left'
       }
-    },    
+    },
     {
       path: '/projects',
       name: 'projects',

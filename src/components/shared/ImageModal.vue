@@ -1,24 +1,27 @@
 <template>
   <div class="modal" v-if="showModal">
     <div class="modal-content">
-      <span class="absolute top-0 left-0 text-white transition-transform cursor-pointer text-7xl hover:rotate-360" @click="$emit('close')">&times;</span>
-      <img :src="imageUrl" alt="Modal Image" @click="$emit('close')"/>
+      <span
+        class="absolute top-0 left-0 text-white transition-transform cursor-pointer text-7xl hover:rotate-360"
+        @click="$emit('close')"
+        >&times;</span
+      >
+      <img :src="imageUrl" alt="Modal Image" @click="$emit('close')" />
     </div>
   </div>
 </template>
 
 <script setup>
 defineProps({
-    imageUrl: {
-      type: String,
-      required: true
-    },
-    showModal: {
-      type: Boolean,
-      required: true
-    }
-});
-
+  imageUrl: {
+    type: String,
+    required: true
+  },
+  showModal: {
+    type: Boolean,
+    required: true
+  }
+})
 </script>
 
 <style scoped>

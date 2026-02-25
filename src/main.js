@@ -12,7 +12,7 @@ const app = createApp(App)
 
 const markedMixin = {
   methods: {
-    md: function (text) {
+    md: function(text) {
       return marked.parse(text)
     }
   }
@@ -23,4 +23,3 @@ app.use(router)
 app.mixin(markedMixin)
 
 app.mount('#app')
-

@@ -1,6 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import NavLink from './components/shared/NavLink.vue';
+import NavLink from './components/shared/NavLink.vue'
 
 // const route = useRoute();
 </script>
@@ -8,7 +8,9 @@ import NavLink from './components/shared/NavLink.vue';
 <template>
   <header class="mb-20">
     <div class="flex flex-row">
-      <nav class="fixed flex flex-row w-full gap-3 p-3 space-x-2 text-2xl rounded-sm md:bg-transparent">
+      <nav
+        class="fixed flex flex-row w-full gap-3 p-3 space-x-2 text-2xl rounded-sm md:bg-transparent"
+      >
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/projects">Projects</NavLink>
@@ -17,15 +19,15 @@ import NavLink from './components/shared/NavLink.vue';
   </header>
 
   <RouterView v-slot="{ Component, route }">
-      <Transition :enter-active-class="route.meta.transitionIn || 'slide'"
-        :leave-active-class="route.meta.transitionOut || 'slide'" mode="out-in">
-        <component :is="Component" />
-      </Transition>
-    </RouterView>
+    <Transition
+      :enter-active-class="route.meta.transitionIn || 'slide'"
+      :leave-active-class="route.meta.transitionOut || 'slide'"
+      mode="out-in"
+    >
+      <component :is="Component" />
+    </Transition>
+  </RouterView>
 </template>
-
-
-
 
 <style scoped>
 .slide-enter-active {
@@ -41,11 +43,12 @@ import NavLink from './components/shared/NavLink.vue';
 @keyframes slideinleft {
   from {
     margin-left: -100%;
-    opacity: 0;    
-  }    
+    opacity: 0;
+  }
+
   to {
     margin-left: 0%;
-    opacity: 1;    
+    opacity: 1;
   }
 }
 
@@ -57,11 +60,12 @@ import NavLink from './components/shared/NavLink.vue';
 @keyframes slideoutleft {
   from {
     margin-left: 0%;
-    opacity: 1;    
-  }    
+    opacity: 1;
+  }
+
   to {
     margin-left: -100%;
-    opacity: 0;    
+    opacity: 0;
   }
 }
 
@@ -73,11 +77,12 @@ import NavLink from './components/shared/NavLink.vue';
 @keyframes slideinright {
   from {
     margin-left: 100%;
-    opacity: 0;    
-  }    
+    opacity: 0;
+  }
+
   to {
     margin-left: 0%;
-    opacity: 1;    
+    opacity: 1;
   }
 }
 
@@ -89,13 +94,12 @@ import NavLink from './components/shared/NavLink.vue';
 @keyframes slideoutright {
   from {
     margin-left: 0%;
-    opacity: 1;    
-  }    
+    opacity: 1;
+  }
+
   to {
     margin-left: 100%;
-    opacity: 0;    
+    opacity: 0;
   }
 }
-
-
 </style>
