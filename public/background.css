@@ -1,23 +1,22 @@
-
 .bg {
-  animation:slide 30s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);  
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-12;
+  /* animation:slide 30s ease-in-out infinite alternate; */
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -12;
 }
 
 .bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:60s;
+  animation-direction: alternate-reverse;
+  animation-duration: 60s;
 }
 
 .bg3 {
-  animation-duration:75s;
+  animation-duration: 75s;
 }
 
 /* html{
@@ -43,47 +42,46 @@
 
 @keyframes slide {
   0% {
-    transform:translateX(-25%);
+    transform: translateX(-25%);
   }
   100% {
-    transform:translateX(25%);
+    transform: translateX(25%);
   }
 }
 
 .wave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .wave svg {
-    position: relative;
-    display: block;
-    width: calc(133% + 1.3px);
-    height: 150px;
+  position: relative;
+  display: block;
+  width: calc(133% + 1.3px);
+  height: 150px;
 }
 
 .wave .shape-fill {
-    fill: #1CA4CA;
+  fill: #1ca4ca;
 }
 
 .pulse {
-    animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
-    0% {
-      filter: blur(0px);
-    }
-    50% {
-        filter: blur(1px);
-    }
-    100% {
-        filter: blur(2px);
-    }
+  0% {
+    filter: blur(0px);
   }
-
+  50% {
+    filter: blur(1px);
+  }
+  100% {
+    filter: blur(2px);
+  }
+}
