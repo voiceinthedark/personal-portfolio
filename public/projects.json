@@ -12,6 +12,7 @@
                 "Sass",
                 "Express",
                 "Node",
+                "Ejs",
                 "Postgresql",
                 "Redis"
             ],
@@ -74,7 +75,7 @@
             ]
         },
         {
-            "id": 9,
+            "id": 4,
             "title": "Local Election platform",
             "description": "Local election platform, built using expressjs and Reactjs, with postgresql as a database.\n\n**Features:**\n - Provides access to voters to check their voting status.\n - Allow voters to request new identity cards.\n - Allow voters to request corrections of their information.\n - Allow voters to request to be listed in the voting list if they've been left out.\n - Accessible UI/UX design for ease of use.\n - Automatically send email notifications to administrators when a new request is made.",
             "image": "images/chehour-election-screen.png",
@@ -95,7 +96,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": 5,
             "title": "Online Book Query",
             "description": "**An android application** to search for books using the Google Books API.\n\n- Provides the complete features of the **Google Books** API\n- searching, filtering, sorting, etc.\n- Provides history functionality to keep track of the search query.",
             "image": "images/bookquery.jpg",
@@ -113,7 +114,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 6,
             "title": "React Weather App",
             "description": "Reactive Weather Application with **GPS support** using Reactjs, with fully dynamic, responsive and appealing design. \n\nUses an accurate GPS locational API to provide accurate data from OpenWeatherMap API.",
             "image": "images/weather.png",
@@ -134,7 +135,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 7,
             "title": "Bookread Keeper",
             "description": "A book-reading application to keep track of read books, written purely in javascript and css.\n - Lightweight and easy to use.",
             "image": "images/libraryjs.png",
@@ -153,7 +154,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 8,
             "title": "Pomodoro Timer",
             "description": "A pomodoro timer to help with productivity and time management, written purely in javascript and css, made as part of a *Javascript* coding challenge.\n\n - Lightweight and easy to use.\n - Zen mode, with ambient music player\n - Audiovisual progress bar",
             "image": "images/pomodoro.png",
@@ -172,7 +173,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 9,
             "title": "Personal Portfolio",
             "description": "This portfolio you are a browsing at this moment, is a simplistic, responsive yet stylish **Single Page Application**.\n\nWritten primarily in Vue and TailwindCSS.\n",
             "image": "images/portfolio.png",
