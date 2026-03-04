@@ -1,196 +1,141 @@
 {
-    "items": [
-        {
-            "id": 1,
-            "title": "Patient Management System",
-            "description": "A Patient management system for a local clinic, written in Expressjs and Ejs as a templating engine, with Postgresql as a database.\n\n**Features:**\n - Provides all the necessary fearures for a patient management system, such as patient registration, patient records management, data auditing etc.\n - Clean and intuitive user interface, with focus on usability and ease of use.\n - Uses Redis for caching, to provide fast and efficient data retrieval.\n - Uses Chartjs for data visualization\n - Deployed locally using PM2 and Nginx as a reverse proxy server.",
-            "image": "images/patient-management-screen.png",
-            "technologies": [
-                "Html",
-                "Css",
-                "Javascript",
-                "Sass",
-                "Express",
-                "Node",
-                "Ejs",
-                "Postgresql",
-                "Redis"
-            ],
-            "keywords": [
-                "fullstack",
-                "expressjs",
-                "patient-management"
-            ]
-        },
-        {
-            "id": 2,
-            "title": "Blogging Platform",
-            "description": "**A complete reactive Blogging Platform using the *TALL stack*.**\n Features:\n\n - Rich text post creation/editing\n - Comment system\n - Like/dislike System\n - Followers System\n - Direct Messaging System\n - Search indexing system",
-            "image": "images/blog-cms.png",
-            "github": "https://github.com/voiceinthedark/blogging-platform-cms",
-            "technologies": [
-                "Html",
-                "Css",
-                "Javascript",
-                "Tailwindcss",
-                "Vite",
-                "Alpine",
-                "Laravel",
-                "Php",
-                "Mysql",
-                "Livewire",
-                "Composer",
-                "Nginx",
-                "Docker"
-            ],
-            "keywords": [
-                "blog",
-                "fullstack",
-                "laravel",
-                "cms"
-            ]
-        },
-        {
-            "id": 3,
-            "title": "Markdown driven Blog",
-            "description": "A **Markdown driven blog**, *no database* no hussle, written in **Laravel** as a backend and **Vue** as a frontend. Smooth single page application. With **SSR** support.\nHas a companion application, which is a visual studio code extension for article creation and editing.\n\nFeatures:\n\n - Easily add posts by just writing a markdown file and placing it in the views directory\n - Mermaid diagraming support, powered by Mermaidjs\n - Yaml Frontmatter is everything needed to categorise and process the article\n - Powered by The League Commonmark and Torchlight syntax highlighter\n - **Easy to use**",
-            "image": "images/markdown-blog.png",
-            "github": "https://github.com/voiceinthedark/markdown-blog",
-            "technologies": [
-                "Html",
-                "Css",
-                "Javascript",
-                "Tailwindcss",
-                "Vite",
-                "Vue",
-                "Laravel",
-                "Php",
-                "Inertia",
-                "Mermaid"
-            ],
-            "keywords": [
-                "blog",
-                "fullstack",
-                "laravel"
-            ]
-        },
-        {
-            "id": 4,
-            "title": "Local Election platform",
-            "description": "Local election platform, built using expressjs and Reactjs, with postgresql as a database.\n\n**Features:**\n - Provides access to voters to check their voting status.\n - Allow voters to request new identity cards.\n - Allow voters to request corrections of their information.\n - Allow voters to request to be listed in the voting list if they've been left out.\n - Accessible UI/UX design for ease of use.\n - Automatically send email notifications to administrators when a new request is made.",
-            "image": "images/chehour-election-screen.png",
-            "technologies": [
-                "Html",
-                "Css",
-                "Javascript",
-                "Sass",
-                "Express",
-                "Node",
-                "Postgresql",
-                "React"
-            ],
-            "keywords": [
-                "fullstack",
-                "expressjs",
-                "election"
-            ]
-        },
-        {
-            "id": 5,
-            "title": "Online Book Query",
-            "description": "**An android application** to search for books using the Google Books API.\n\n- Provides the complete features of the **Google Books** API\n- searching, filtering, sorting, etc.\n- Provides history functionality to keep track of the search query.",
-            "image": "images/bookquery.jpg",
-            "github": "https://github.com/voiceinthedark/book-query-google-api",
-            "technologies": [
-                "Java",
-                "Android",
-                "Gradle",
-                "Sqlite"
-            ],
-            "keywords": [
-                "book",
-                "android",
-                "mobile"
-            ]
-        },
-        {
-            "id": 6,
-            "title": "React Weather App",
-            "description": "Reactive Weather Application with **GPS support** using Reactjs, with fully dynamic, responsive and appealing design. \n\nUses an accurate GPS locational API to provide accurate data from OpenWeatherMap API.",
-            "image": "images/weather.png",
-            "github": "https://github.com/voiceinthedark/React-Weather",
-            "demo": "https://voiceinthedark.github.io/React-Weather/",
-            "technologies": [
-                "Html",
-                "Css",
-                "Javascript",
-                "Bootstrap",
-                "React",
-                "Node"
-            ],
-            "keywords": [
-                "weather-app",
-                "frontend",
-                "spa"
-            ]
-        },
-        {
-            "id": 7,
-            "title": "Bookread Keeper",
-            "description": "A book-reading application to keep track of read books, written purely in javascript and css.\n - Lightweight and easy to use.",
-            "image": "images/libraryjs.png",
-            "github": "https://github.com/voiceinthedark/libraryjs",
-            "demo": "https://voiceinthedark.github.io/libraryjs/",
-            "technologies": [
-                "Html",
-                "Css",
-                "Javascript"
-            ],
-            "keywords": [
-                "note-taking",
-                "frontend",
-                "spa",
-                "library"
-            ]
-        },
-        {
-            "id": 8,
-            "title": "Pomodoro Timer",
-            "description": "A pomodoro timer to help with productivity and time management, written purely in javascript and css, made as part of a *Javascript* coding challenge.\n\n - Lightweight and easy to use.\n - Zen mode, with ambient music player\n - Audiovisual progress bar",
-            "image": "images/pomodoro.png",
-            "github": "https://github.com/voiceinthedark/pomodoro-timer",
-            "demo": "https://voiceinthedark.github.io/pomodoro-timer/",
-            "technologies": [
-                "Html",
-                "Css",
-                "Javascript"
-            ],
-            "keywords": [
-                "productivity",
-                "time-management",
-                "spa",
-                "frontend"
-            ]
-        },
-        {
-            "id": 9,
-            "title": "Personal Portfolio",
-            "description": "This portfolio you are a browsing at this moment, is a simplistic, responsive yet stylish **Single Page Application**.\n\nWritten primarily in Vue and TailwindCSS.\n",
-            "image": "images/portfolio.png",
-            "github": "https://github.com/voiceinthedark/personal-portfolio",
-            "demo": "https://voiceinthedark.github.io/personal-portfolio/",
-            "technologies": [
-                "Html",
-                "Css",
-                "Javascript",
-                "Tailwindcss",
-                "Vue"
-            ],
-            "keywords": [
-                "protfolio",
-                "spa",
-                "frontend"
-            ]
-        }
-    ]
+  "items": [
+    {
+      "id": 1,
+      "title": "Patient Management System",
+      "description": "A Patient management system for a local clinic, written in Expressjs and Ejs as a templating engine, with Postgresql as a database.\n\n**Features:**\n - Provides all the necessary fearures for a patient management system, such as patient registration, patient records management, data auditing etc.\n - Clean and intuitive user interface, with focus on usability and ease of use.\n - Uses Redis for caching, to provide fast and efficient data retrieval.\n - Uses Chartjs for data visualization\n - Deployed locally using PM2 and Nginx as a reverse proxy server.",
+      "image": "images/patient-management-screen.png",
+      "technologies": [
+        "Html",
+        "Css",
+        "Javascript",
+        "Sass",
+        "Express",
+        "Node",
+        "Ejs",
+        "Postgresql",
+        "Redis"
+      ],
+      "keywords": ["fullstack", "expressjs", "patient-management"]
+    },
+    {
+      "id": 2,
+      "title": "Blogging Platform",
+      "description": "**A complete reactive Blogging Platform using the *TALL stack*.**\n Features:\n\n - Rich text post creation/editing\n - Comment system\n - Like/dislike System\n - Followers System\n - Direct Messaging System\n - Search indexing system",
+      "image": "images/blog-cms.png",
+      "github": "https://github.com/voiceinthedark/blogging-platform-cms",
+      "technologies": [
+        "Html",
+        "Css",
+        "Javascript",
+        "Tailwindcss",
+        "Vite",
+        "Alpine",
+        "Laravel",
+        "Php",
+        "Mysql",
+        "Livewire",
+        "Composer",
+        "Nginx",
+        "Docker"
+      ],
+      "keywords": ["blog", "fullstack", "laravel", "cms"]
+    },
+    {
+      "id": 3,
+      "title": "Markdown driven Blog",
+      "description": "A **Markdown driven blog**, *no database* no hussle, written in **Laravel** as a backend and **Vue** as a frontend. Smooth single page application. With **SSR** support.\nHas a companion application, which is a visual studio code extension for article creation and editing.\n\nFeatures:\n\n - Easily add posts by just writing a markdown file and placing it in the views directory\n - Mermaid diagraming support, powered by Mermaidjs\n - Yaml Frontmatter is everything needed to categorise and process the article\n - Powered by The League Commonmark and Torchlight syntax highlighter\n - **Easy to use**",
+      "image": "images/markdown-blog.png",
+      "github": "https://github.com/voiceinthedark/markdown-blog",
+      "technologies": [
+        "Html",
+        "Css",
+        "Javascript",
+        "Tailwindcss",
+        "Vite",
+        "Vue",
+        "Laravel",
+        "Php",
+        "Inertia",
+        "Mermaid"
+      ],
+      "keywords": ["blog", "fullstack", "laravel"]
+    },
+    {
+      "id": 4,
+      "title": "Local Election platform",
+      "description": "Local election platform, built using expressjs and Reactjs, with postgresql as a database.\n\n**Features:**\n - Provides access to voters to check their voting status.\n - Allow voters to request new identity cards.\n - Allow voters to request corrections of their information.\n - Allow voters to request to be listed in the voting list if they've been left out.\n - Accessible UI/UX design for ease of use.\n - Automatically send email notifications to administrators when a new request is made.",
+      "image": "images/chehour-election-screen.png",
+      "technologies": [
+        "Html",
+        "Css",
+        "Javascript",
+        "Sass",
+        "Express",
+        "Node",
+        "Postgresql",
+        "React"
+      ],
+      "keywords": ["fullstack", "expressjs", "election"]
+    },
+    {
+      "id": 5,
+      "title": "Online Book Query",
+      "description": "**An android application** to search for books using the Google Books API.\n\n- Provides the complete features of the **Google Books** API\n- searching, filtering, sorting, etc.\n- Provides history functionality to keep track of the search query.",
+      "image": "images/bookquery.jpg",
+      "github": "https://github.com/voiceinthedark/book-query-google-api",
+      "technologies": ["Java", "Android", "Gradle", "Sqlite"],
+      "keywords": ["book", "android", "mobile"]
+    },
+    {
+      "id": 6,
+      "title": "React Weather App",
+      "description": "Reactive Weather Application with **GPS support** using Reactjs, with fully dynamic, responsive and appealing design. \n\nUses an accurate GPS locational API to provide accurate data from OpenWeatherMap API.",
+      "image": "images/weather.png",
+      "github": "https://github.com/voiceinthedark/React-Weather",
+      "demo": "https://voiceinthedark.github.io/React-Weather/",
+      "technologies": ["Html", "Css", "Javascript", "Bootstrap", "React", "Node"],
+      "keywords": ["weather-app", "frontend", "spa"]
+    },
+    {
+      "id": 10,
+      "title": "React CV Builder",
+      "description": "A CV builder application built using Reactjs, with a clean and intuitive user interface, and a fully responsive design.\n\n - Provides all the necessary features for a CV builder, such as adding and editing sections, adding and editing entries, and exporting the CV as a PDF file.\n - Fully localized using i18n.\n - Different templates to choose from.\n - Auto-save functionality to prevent data loss.\n - Preview scaling",
+      "image": "images/cvmaker.png",
+      "github": "",
+      "demo": "https://cv-maker-gen.netlify.app/",
+      "technologies": ["Html", "Css", "Javascript", "React", "Node"],
+      "keywords": ["cv-builder", "frontend", "spa"]
+    },
+    {
+      "id": 7,
+      "title": "Bookread Keeper",
+      "description": "A book-reading application to keep track of read books, written purely in javascript and css.\n - Lightweight and easy to use.",
+      "image": "images/libraryjs.png",
+      "github": "https://github.com/voiceinthedark/libraryjs",
+      "demo": "https://voiceinthedark.github.io/libraryjs/",
+      "technologies": ["Html", "Css", "Javascript"],
+      "keywords": ["note-taking", "frontend", "spa", "library"]
+    },
+    {
+      "id": 8,
+      "title": "Pomodoro Timer",
+      "description": "A pomodoro timer to help with productivity and time management, written purely in javascript and css, made as part of a *Javascript* coding challenge.\n\n - Lightweight and easy to use.\n - Zen mode, with ambient music player\n - Audiovisual progress bar",
+      "image": "images/pomodoro.png",
+      "github": "https://github.com/voiceinthedark/pomodoro-timer",
+      "demo": "https://voiceinthedark.github.io/pomodoro-timer/",
+      "technologies": ["Html", "Css", "Javascript"],
+      "keywords": ["productivity", "time-management", "spa", "frontend"]
+    },
+    {
+      "id": 9,
+      "title": "Personal Portfolio",
+      "description": "This portfolio you are a browsing at this moment, is a simplistic, responsive yet stylish **Single Page Application**.\n\nWritten primarily in Vue and TailwindCSS.\n",
+      "image": "images/portfolio.png",
+      "github": "https://github.com/voiceinthedark/personal-portfolio",
+      "demo": "https://voiceinthedark.github.io/personal-portfolio/",
+      "technologies": ["Html", "Css", "Javascript", "Tailwindcss", "Vue"],
+      "keywords": ["protfolio", "spa", "frontend"]
+    }
+  ]
 }
